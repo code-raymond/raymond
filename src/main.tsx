@@ -5,7 +5,6 @@ import './index.css'
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme.tsx';
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import {getFirestore} from 'firebase/firestore';
 import { getAuth, signInAnonymously } from 'firebase/auth';
 import { apiKey, appId, authDomain, measurementId, messagingSenderId, projectId, storageBucket } from './../env';
@@ -21,7 +20,6 @@ const firebaseConfig = {
   measurementId: measurementId
 };
 const app  = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 const db = getFirestore(app);
 const auth = getAuth(app);
 const signIn = async () => {

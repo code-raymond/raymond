@@ -3,10 +3,7 @@ import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import VerticalLinearStepper from '../stepper/Stepper';
-import Popover from '@mui/material/Popover';
-import { Grid, Typography } from '@mui/material';
-import CircularProgressWithLabel from './components/CircularProgressWithLabel';
-import StarIcon from '@mui/icons-material/Star';
+import { Grid } from '@mui/material';
 import PopoverCustom from './components/PopoverCustom';
 
 interface TabPanelProps {
@@ -71,7 +68,7 @@ export default function PortfolioTabs(props: ITabProps) {
                 </Tabs>
             </Box>
             <PersonalTabs value={value} index={0}>
-                <Grid container alignItems={"flex-start"} >
+                <Grid container alignItems={"flex-start"} flexWrap={"wrap"}>
                     {props.skills?.map((skill, i) => {
                         return <PopoverCustom i={i} skill={skill}/>
                     })}
