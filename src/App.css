@@ -249,7 +249,8 @@ a:hover {
   margin: 0 auto;
   text-align: center;
   box-shadow: 0 0 0 10px #05344b;
-  display: block;
+  display: grid;
+  place-content: center;
 }
 
 /*------/ Owl Carousel /------*/

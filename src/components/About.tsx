@@ -27,21 +27,29 @@ const About: React.FC = () => {
                   </div>
                   <div className="skill-mf">
                     <p className="title-s">Skill</p>
-                    <span>HTML</span> <span className="pull-right">85%</span>
+                    <span>Javascript / Typescript</span> <span className="pull-right">70%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: '70%' }} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
+                    </div>
+                    <span>React JS</span> <span className="pull-right">90%</span>
+                    <div className="progress">
+                      <div className="progress-bar" role="progressbar" style={{ width: '90%' }} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+                    </div>
+                    <span>HTML/CSS3</span> <span className="pull-right">85%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: '85%' }} aria-valuenow={85} aria-valuemin={0} aria-valuemax={100}></div>
                     </div>
-                    <span>CSS3</span> <span className="pull-right">75%</span>
+                    <span>Node JS / Express</span> <span className="pull-right">75%</span>
                     <div className="progress">
                       <div className="progress-bar" role="progressbar" style={{ width: '75%' }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}></div>
-                    </div>
-                    <span>PHP</span> <span className="pull-right">50%</span>
+                    </div>    
+                    <span>Python</span> <span className="pull-right">40%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style={{ width: '50%' }} aria-valuenow={50} aria-valuemin={0} aria-valuemax={100}></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: '40%' }} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
                     </div>
-                    <span>JAVASCRIPT</span> <span className="pull-right">90%</span>
+                    <span>ASP .Net Core</span> <span className="pull-right">60%</span>
                     <div className="progress">
-                      <div className="progress-bar" role="progressbar" style={{ width: '90%' }} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
+                      <div className="progress-bar" role="progressbar" style={{ width: '60%' }} aria-valuenow={90} aria-valuemin={0} aria-valuemax={100}></div>
                     </div>
                   </div>
                 </div>

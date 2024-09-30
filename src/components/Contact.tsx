@@ -63,8 +63,7 @@ const Contact: React.FC = () => {
                     <ul>
                       <li><a href="#"><span className="ico-circle"><i className="bi bi-facebook"></i></span></a></li>
                       <li><a href="#"><span className="ico-circle"><i className="bi bi-instagram"></i></span></a></li>
-                      <li><a href="#"><span className="ico-circle"><i className="bi bi-twitter"></i></span></a></li>
-                      <li><a href="#"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
+                      <li><a href="https://www.linkedin.com/in/raymond-thomas-50976211b/"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                     </ul>
                   </div>
                 </div>
